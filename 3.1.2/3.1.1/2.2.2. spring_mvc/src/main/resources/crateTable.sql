@@ -1,6 +1,7 @@
-insert into mydbtest.users (name, lastName, password, username)
+
+insert into mydbtest.users (name, last_name, password, username)
 values ('Oleg', 'Petrov' , '$2y$12$SoZURprMGqMqbquqEAGsD.vEYXbCBMA6qOVfUB6Q/TH.YvxMld36e', '111@mail.ru');
-insert into mydbtest.users (name, lastName, password, username)
+insert into mydbtest.users (name, last_name, password, username)
 values ('Elena', 'Sidorova' , '$2y$12$SoZURprMGqMqbquqEAGsD.vEYXbCBMA6qOVfUB6Q/TH.YvxMld36e', 'admin@mail.ru');
 insert into mydbtest.roles (name) value ('ROLE_USER');
 insert into mydbtest.roles (name) value ('ROLE_ADMIN');
